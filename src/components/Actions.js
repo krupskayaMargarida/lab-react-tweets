@@ -1,4 +1,4 @@
-function Actions(props) {
+function Actions(tweetObj) {
   return (
     <div className="actions">
       {/* Font Awesome icons */}

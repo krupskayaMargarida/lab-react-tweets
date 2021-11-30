@@ -1,9 +1,9 @@
-function User(props) {
+function User(tweetObj) {
   return (
     <span className="user">
-      <span className="name">{props.userData.name}</span>
+      <span className="name">{tweetObj.userData.name}</span>
 
-      <span className="handle">{props.userData.handle}</span>
+      <span className="handle">{tweetObj.userData.handle}</span>
     </span>
   );
 }

@@ -1,5 +1,5 @@
-function Message(props) {
-  return <p className="message">{props.message}</p>;
+function Message(tweetObj) {
+  return <p className="message">{tweetObj.message}</p>;
 }
 
 export default Message;
